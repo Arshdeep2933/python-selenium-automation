@@ -39,3 +39,6 @@ driver.find_element(By.CSS_SELECTOR, "a[href*='/gp/help/customer/display.html/re
 
 # privacy notice
 driver.find_element(By.CSS_SELECTOR, "a[href*='gp/help/customer/display.html/ref=ap_register_notification_privacy_notice?ie=UTF8&nodeId=468496']")
+
+#Sign in
+driver.find_element(By.CSS_SELECTOR, ".a-link-emphasis")
